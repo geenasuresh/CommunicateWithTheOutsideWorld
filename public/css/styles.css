@@ -1,0 +1,113 @@
+@import url(/css/reset.css);
+
+body {
+  background-color: #EFEFEF;
+  color: #333;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  padding: 0px 1em;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #278593;
+}
+
+a:hover {
+  color: #54CCDC;
+}
+
+input, textarea {
+  border: 1px solid #999;
+  padding: 0.3125em;
+
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 5px;
+  behavior: url(/css/PIE.htc);
+}
+
+textarea {
+  height: 70ex;
+  margin-bottom: 1em;
+  width: 99%;
+}
+
+div#page {
+  background-color: #FFF;
+  border: 1px solid #BBB;
+  margin: 1em auto;
+  max-width: 60em;
+  text-align: left;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 0px 1px 2px #999;
+  -moz-box-shadow: 0px 1px 2px #999;
+  box-shadow: 0px 1px 2px #999; 
+  behavior: url(/css/PIE.htc);
+}
+
+header h1 {
+  border-bottom: 1px solid black;
+  font-size: 1.875em;
+  margin: 1.25em 0.625em 0.625em 0.625em;
+}
+
+div[role=main] {
+  padding: 0em 1.5625em 1.25em 1.5625em;
+}
+
+div[role=main] h1 {
+  font-size: 1.875em;
+  margin: 1.25em 0em 0.625em 0em;
+}
+
+div[role=main] h2 {
+  font-size: 1.374em;
+  margin: 0.75em 0em;
+}
+
+div[role=main] h3 {
+  font-size: 1.25em;
+  font-style: italic;
+  margin: 0.75em 0em 0.375em 0em;
+}
+
+div[role=main] strong {
+  font-weight: bold;
+}
+
+div[role=main] em {
+  font-style: italic;
+}
+
+div[role=main] p {
+  line-height: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+div[role=main] ol {
+  list-style: decimal outside none;
+  margin-bottom: 1.25em;
+  padding-left: 2.5em;
+}
+
+div[role=main] ul {
+  list-style: disc outside none;
+  margin-bottom: 1.25em;
+  padding-left: 2.5em;
+}
+
+div[role=main] ol li,
+div[role=main] ul li {
+  line-height: 1.25em;
+  margin-bottom: 1.25em;
+  padding-left: 0.3125em;
+}
+

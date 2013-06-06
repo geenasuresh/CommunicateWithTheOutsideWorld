@@ -1,0 +1,2 @@
+CREATE TABLE page_content (page, content);
+CREATE UNIQUE INDEX page_idx ON page_content(page);

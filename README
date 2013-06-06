@@ -1,0 +1,11 @@
+This is the source code for the article Proc_Open: Communicate with the
+Outside World by Timothy Boronczyk, available at 
+http://phpmaster.com/proc-open-communicate-with-the-outside-world
+
+NOTE:
+-----
+A copy of NME is included in src/NME-130323 for your convenience, and its
+latest source can be obtained from http://nyctergatis.com/creole/. The markup
+engine needs to be compiled for your system for the article's code to function.
+I recommend placing (or creating a symlink to) the resulting binary in the
+article project's bin directory.
